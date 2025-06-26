@@ -44,3 +44,6 @@ jobs:
           project-name: CE-Versionupdate-Memory
           # Override the source for the CodeBuild project to use the latest code from the PR
           source-version-override: ${{ github.event.pull_request.head.sha }}
+
+          # Test CI workflow
+
